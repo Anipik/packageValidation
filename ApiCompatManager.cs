@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace packageValidation
+﻿namespace packageValidation
 {
-    class ApiCompatManager
+    public class ApiCompatManager
     {
+        public static void RunApiCompat(string baseDllPath, string compareDllPath string baseline = null)
+        {
+            // Runs Api Compat
+        }
     }
 }

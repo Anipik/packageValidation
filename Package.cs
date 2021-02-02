@@ -54,5 +54,11 @@ namespace packageValidation
             }
             return asset;
         }
+
+        // extract the package to a temp folder or 
+        public string GetAssemblyPath(Asset asset)
+        {
+            return null;
+        }
     }
 }
